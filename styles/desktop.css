@@ -1,4 +1,10 @@
-html *
+html
 {
     background-color: #78422b;
+    background-image: url(../images/brick_background.jpg);
+}
+
+body *
+{
+    background-color: rgba(198, 148, 174, 0.26);
 }

@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="../styles/desktop.css">
+        <link rel="stylesheet" href="../styles/phone.css" media="screen and (max-width:480px)"/>
+        <link rel="stylesheet" href="../styles/tablet.css" media="screen and (min-width:481px)"/>
+        <link rel="stylesheet" href="../styles/desktop.css" media="screen and (min-width:796px)"/>
     </head>
     <body>
-        <header>
-
+        <header class="navigation">
+            <a href="home.html" class="active">home</a>
+            <!--nav links-->
+            <div id="myLinks">
+                <a href="new listing.html">new listing</a>
+                <a href="profile.html">profile</a>
+            </div>
+            <!--hamburger-->
+            <a href="javascript:void(0);" class="icon" onclick="openMenu()">
+                <i class=""fa fa-bars"></i>
+            </a>
         </header>
+
+        <p>
+            hello world
+        </p>
         
         <footer>
             
